@@ -1,0 +1,448 @@
+digraph {
+ant
+antapachelog4j
+antlauncher
+antlr
+antnodeps
+avalonframework
+axisant
+axis
+barcode4jfopextcomplete
+batikanim
+batikawtutil
+batikbridge
+batikcss
+batikdom
+batikext
+batikgvt
+batikparser
+batikscript
+batiksvgdom
+batiksvggen
+batikutil
+batikxml
+cal10napi
+catalinaant
+cdiapi
+commonsbeanutils
+commonsbetwixt
+commonscodec
+commonscollections
+commonsdbcp
+commonsdigester
+commonsdiscovery
+commonsfileupload
+commonsio
+commonslang
+commonslogging
+commonspool
+dbmanager
+dbsourcemanager
+dom4j
+ejbapi
+fop
+freemarker
+guava
+guice
+hibernate3patched
+hibernatejpaapiFinal
+httpclient
+httpcore
+httpmime
+itextpdf
+itextpdfa
+jacksonannotations
+jacksoncore
+jacksondatabind
+jakartaoro
+jasperreports
+jasperreportsfonts
+javassistGA
+javax.inject
+jaxrpc
+jbossinterceptorapiCR3
+jbossinterceptorcoreCR1
+jbossinterceptorspiCR1
+jcommon
+jdtcompiler
+jettison
+jfreechart
+jslint4java
+jsmin.0.2.4
+jta
+jxl
+log4j
+mail
+nekohtml
+ojdbc6
+openbravocore
+poi
+postgresqljre6
+quartz
+renderFoRmi
+slf4japi
+slf4jext
+slf4jlog4j12
+tikacore
+tomcatjdbc
+tomcatjuli
+weldapi
+weldcoreFinal
+weldservletcoreFinal
+weldspi
+wsdl4j
+wstxasl
+xercesImpl
+xmlgraphicscommons
+xstream
+	
+OB -> openbravocore
+OB -> log4j
+OB -> hibernate3patched
+OB -> jettison
+OB -> slf4japi
+OB -> slf4jext
+OB -> cdiapi
+OB -> commonslang
+OB -> axis
+OB -> jaxrpc
+OB -> jasperreports
+OB -> javax.inject
+OB -> dbsourcemanager
+OB -> ant
+OB -> quartz
+OB -> dom4j
+OB -> mail
+OB -> jslint4java
+OB -> freemarker
+OB -> commonscodec
+OB -> commonsfileupload
+OB -> commonsio
+OB -> batikext
+OB -> commonsdbcp
+OB -> fop
+OB -> xstream
+OB -> tomcatjdbc
+OB -> commonsbetwixt
+OB -> commonspool
+OB -> tikacore
+OB -> dbmanager
+OB -> xercesImpl
+OB -> postgresqljre6
+OB -> antapachelog4j
+OB -> commonsbeanutils
+OB -> nekohtml
+OB -> ojdbc6
+OB -> commonscollections
+OB -> guava
+OB -> hibernatejpaapiFinal
+OB -> jsmin.0.2.4
+OB -> weldcoreFinal
+OB -> weldservletcoreFinal
+antapachelog4j -> ant
+antlauncher -> ant
+antnodeps -> ant
+axisant -> ant
+barcode4jfopextcomplete -> ant
+catalinaant -> ant
+dbsourcemanager -> ant
+fop -> ant
+freemarker -> ant
+hibernate3patched -> ant
+jasperreports -> ant
+jdtcompiler -> ant
+jslint4java -> ant
+jsmin.0.2.4 -> ant
+openbravocore -> ant
+ant -> antapachelog4j
+openbravocore -> antapachelog4j
+ant -> antlauncher
+antnodeps -> antlauncher
+ant -> antnodeps
+hibernate3patched -> antlr
+jasperreports -> antlr
+barcode4jfopextcomplete -> avalonframework
+commonslogging -> avalonframework
+fop -> avalonframework
+axisant -> axis
+jaxrpc -> axis
+jasperreports -> barcode4jfopextcomplete
+batikbridge -> batikanim
+batiksvgdom -> batikanim
+batikanim -> batikawtutil
+batikbridge -> batikawtutil
+batikgvt -> batikawtutil
+batikparser -> batikawtutil
+batiksvgdom -> batikawtutil
+batiksvggen -> batikawtutil
+fop -> batikawtutil
+jasperreports -> batikawtutil
+batikgvt -> batikbridge
+batikscript -> batikbridge
+fop -> batikbridge
+jasperreports -> batikbridge
+batikbridge -> batikcss
+batikdom -> batikcss
+batiksvgdom -> batikcss
+batikanim -> batikdom
+batikbridge -> batikdom
+batikscript -> batikdom
+batiksvgdom -> batikdom
+fop -> batikdom
+jasperreports -> batikdom
+ant -> batikext
+antnodeps -> batikext
+avalonframework -> batikext
+axis -> batikext
+barcode4jfopextcomplete -> batikext
+batikanim -> batikext
+batikbridge -> batikext
+batikcss -> batikext
+batikdom -> batikext
+batikgvt -> batikext
+batikparser -> batikext
+batikscript -> batikext
+batiksvgdom -> batikext
+batiksvggen -> batikext
+batikutil -> batikext
+commonsdigester -> batikext
+dom4j -> batikext
+fop -> batikext
+freemarker -> batikext
+hibernate3patched -> batikext
+itextpdf -> batikext
+jacksondatabind -> batikext
+jasperreports -> batikext
+jettison -> batikext
+jslint4java -> batikext
+log4j -> batikext
+nekohtml -> batikext
+ojdbc6 -> batikext
+poi -> batikext
+postgresqljre6 -> batikext
+tikacore -> batikext
+weldcoreFinal -> batikext
+wsdl4j -> batikext
+wstxasl -> batikext
+xercesImpl -> batikext
+xmlgraphicscommons -> batikext
+xstream -> batikext
+batikawtutil -> batikgvt
+batikbridge -> batikgvt
+fop -> batikgvt
+jasperreports -> batikgvt
+batikanim -> batikparser
+batikbridge -> batikparser
+batiksvgdom -> batikparser
+fop -> batikparser
+batikbridge -> batikscript
+batikanim -> batiksvgdom
+batikbridge -> batiksvgdom
+batikscript -> batiksvgdom
+fop -> batiksvgdom
+jasperreports -> batiksvgdom
+fop -> batiksvggen
+jasperreports -> batiksvggen
+batikanim -> batikutil
+batikawtutil -> batikutil
+batikbridge -> batikutil
+batikcss -> batikutil
+batikdom -> batikutil
+batikgvt -> batikutil
+batikparser -> batikutil
+batikscript -> batikutil
+batiksvgdom -> batikutil
+batiksvggen -> batikutil
+batikxml -> batikutil
+fop -> batikutil
+jasperreports -> batikutil
+batikbridge -> batikxml
+batikdom -> batikxml
+batikparser -> batikxml
+slf4jext -> cal10napi
+weldcoreFinal -> cal10napi
+weldapi -> cdiapi
+weldcoreFinal -> cdiapi
+weldservletcoreFinal -> cdiapi
+weldspi -> cdiapi
+commonsbetwixt -> commonsbeanutils
+commonscollections -> commonsbeanutils
+commonsdigester -> commonsbeanutils
+dbsourcemanager -> commonsbeanutils
+hibernate3patched -> commonsbeanutils
+jasperreports -> commonsbeanutils
+quartz -> commonsbeanutils
+dbsourcemanager -> commonsbetwixt
+dbsourcemanager -> commonscodec
+httpclient -> commonscodec
+openbravocore -> commonscodec
+poi -> commonscodec
+commonsbeanutils -> commonscollections
+commonsbetwixt -> commonscollections
+commonsdigester -> commonscollections
+dbsourcemanager -> commonscollections
+hibernate3patched -> commonscollections
+jasperreports -> commonscollections
+quartz -> commonscollections
+dbsourcemanager -> commonsdbcp
+openbravocore -> commonsdbcp
+quartz -> commonsdbcp
+commonsbetwixt -> commonsdigester
+dbsourcemanager -> commonsdigester
+jasperreports -> commonsdigester
+quartz -> commonsdigester
+axis -> commonsdiscovery
+openbravocore -> commonsfileupload
+commonsfileupload -> commonsio
+fop -> commonsio
+openbravocore -> commonsio
+xmlgraphicscommons -> commonsio
+dbsourcemanager -> commonslang
+slf4jext -> commonslang
+axis -> commonslogging
+commonsbeanutils -> commonslogging
+commonsbetwixt -> commonslogging
+commonsdigester -> commonslogging
+commonsdiscovery -> commonslogging
+dbsourcemanager -> commonslogging
+fop -> commonslogging
+httpclient -> commonslogging
+jasperreports -> commonslogging
+poi -> commonslogging
+quartz -> commonslogging
+xmlgraphicscommons -> commonslogging
+commonsdbcp -> commonspool
+openbravocore -> commonspool
+dbsourcemanager -> dbmanager
+dbmanager -> dbsourcemanager
+dbsourcemanager -> dom4j
+freemarker -> dom4j
+hibernate3patched -> dom4j
+xstream -> dom4j
+cdiapi -> ejbapi
+jbossinterceptorapiCR3 -> ejbapi
+jbossinterceptorcoreCR1 -> ejbapi
+jbossinterceptorspiCR1 -> ejbapi
+quartz -> ejbapi
+weldapi -> ejbapi
+weldcoreFinal -> ejbapi
+barcode4jfopextcomplete -> fop
+openbravocore -> fop
+renderFoRmi -> fop
+jbossinterceptorcoreCR1 -> guava
+weldcoreFinal -> guava
+hibernate3patched -> hibernatejpaapiFinal
+jasperreports -> hibernatejpaapiFinal
+weldcoreFinal -> hibernatejpaapiFinal
+weldspi -> hibernatejpaapiFinal
+dbsourcemanager -> hibernate3patched
+jacksondatabind -> hibernate3patched
+jasperreports -> hibernate3patched
+openbravocore -> hibernate3patched
+jasperreports -> httpclient
+httpclient -> httpcore
+httpmime -> httpcore
+jasperreports -> httpcore
+itextpdf -> itextpdfa
+jasperreports -> itextpdfa
+itextpdfa -> itextpdf
+jasperreports -> itextpdf
+jacksondatabind -> jacksonannotations
+jacksondatabind -> jacksoncore
+jasperreports -> jacksoncore
+jasperreports -> jacksondatabind
+dbsourcemanager -> jakartaoro
+hibernate3patched -> javassistGA
+jbossinterceptorcoreCR1 -> javassistGA
+slf4jext -> javassistGA
+weldcoreFinal -> javassistGA
+weldservletcoreFinal -> javassistGA
+cdiapi -> javax.inject
+weldcoreFinal -> javax.inject
+axisant -> jaxrpc
+axis -> jaxrpc
+dom4j -> jaxrpc
+ejbapi -> jaxrpc
+jacksondatabind -> jaxrpc
+jasperreports -> jaxrpc
+jettison -> jaxrpc
+jslint4java -> jaxrpc
+tikacore -> jaxrpc
+wsdl4j -> jaxrpc
+wstxasl -> jaxrpc
+xercesImpl -> jaxrpc
+xstream -> jaxrpc
+cdiapi -> jbossinterceptorapiCR3
+ejbapi -> jbossinterceptorapiCR3
+jbossinterceptorcoreCR1 -> jbossinterceptorapiCR3
+jbossinterceptorspiCR1 -> jbossinterceptorapiCR3
+weldapi -> jbossinterceptorapiCR3
+weldcoreFinal -> jbossinterceptorapiCR3
+jbossinterceptorcoreCR1 -> jbossinterceptorspiCR1
+jasperreports -> jcommon
+jfreechart -> jcommon
+jasperreports -> jdtcompiler
+xstream -> jettison
+jasperreports -> jfreechart
+ant -> jslint4java
+batikscript -> jslint4java
+freemarker -> jslint4java
+jasperreports -> jslint4java
+commonsdbcp -> jta
+ejbapi -> jta
+hibernate3patched -> jta
+ojdbc6 -> jta
+postgresqljre6 -> jta
+quartz -> jta
+weldcoreFinal -> jta
+weldspi -> jta
+jasperreports -> jxl
+antapachelog4j -> log4j
+avalonframework -> log4j
+axis -> log4j
+commonslogging -> log4j
+dbsourcemanager -> log4j
+freemarker -> log4j
+openbravocore -> log4j
+renderFoRmi -> log4j
+slf4jext -> log4j
+slf4jlog4j12 -> log4j
+ant -> mail
+axis -> mail
+log4j -> mail
+quartz -> mail
+dbsourcemanager -> ojdbc6
+hibernate3patched -> ojdbc6
+dbsourcemanager -> openbravocore
+jasperreports -> poi
+dbsourcemanager -> postgresqljre6
+openbravocore -> renderFoRmi
+hibernate3patched -> slf4japi
+jbossinterceptorcoreCR1 -> slf4japi
+slf4jext -> slf4japi
+slf4jlog4j12 -> slf4japi
+weldcoreFinal -> slf4japi
+weldservletcoreFinal -> slf4japi
+hibernate3patched -> slf4jext
+jbossinterceptorcoreCR1 -> slf4jext
+slf4japi -> slf4jext
+slf4jlog4j12 -> slf4jext
+weldcoreFinal -> slf4jext
+weldservletcoreFinal -> slf4jext
+slf4japi -> slf4jlog4j12
+tomcatjdbc -> tomcatjuli
+weldcoreFinal -> weldapi
+weldspi -> weldapi
+weldapi -> weldcoreFinal
+weldservletcoreFinal -> weldcoreFinal
+weldspi -> weldcoreFinal
+weldcoreFinal -> weldspi
+weldservletcoreFinal -> weldspi
+axis -> wsdl4j
+dom4j -> xercesImpl
+jasperreports -> xercesImpl
+nekohtml -> xercesImpl
+openbravocore -> xercesImpl
+barcode4jfopextcomplete -> xmlgraphicscommons
+fop -> xmlgraphicscommons
+}
