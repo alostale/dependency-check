@@ -1,0 +1,15 @@
+#!/bin/sh
+
+rm -rf ../decompiled
+mkdir ../decompiled
+mkdir /tmp/decompiled
+
+for i in WebContent/WEB-INF/lib/*.jar; do 
+  echo "  decompiling $(basename $i)..."
+  jarpath="/tmp/decompiled/$(basename $i)"
+  unzip -q $i -d $jarpath
+  for j in $(find $jarpath -name "*.class"); do 
+    mkdir -p $(dirname "../decompiled/$j")
+    javap -c $j > "../decompiled/$j"
+  done
+done  

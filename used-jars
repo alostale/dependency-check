@@ -1,0 +1,19 @@
+#!/bin/sh
+
+echo "looking for packages in jars..."
+rm -rf ../packages
+mkdir ../packages
+for i in WebContent/WEB-INF/lib/*.jar; do 
+  echo "  building $(basename $i)..."
+  unzip -l $i | grep ".class$" | sed 's/^[^a-z]*//' | sed 's/\/[a-z|A-Z|0-9|$]*.class//' | sort | uniq | sed 's/\//\./g' >> "../packages/$(basename $i)"
+done 
+
+
+echo "checking usage..."
+for i in ../packages/*; do 
+  echo "  checking $(basename $i)..."
+  echo "$(basename $i): $(find -name *.java | xargs grep -w -f $i | wc -l)" >> ../packages/usage
+done
+
+# clean up
+# cat jar-deps | sed 's/->/##/' | sed 's/\.jar//g' | sed 's/-[0-9|\.]*//g' | sed 's/##/->/'
